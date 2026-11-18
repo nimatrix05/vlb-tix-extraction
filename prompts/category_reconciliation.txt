@@ -1,0 +1,19 @@
+You previously proposed image-taxonomy categories in several separate parts because the
+findings dataset was too large for one message. Below are all partial proposals (JSON).
+
+=== TASK ===
+Merge them into ONE consistent taxonomy:
+1. Merge categories/subcategories that mean the same thing; choose the clearest name.
+2. Keep conceptually distinct categories separate.
+3. Every raw attribute that appears in any part must appear exactly once in the merged result
+   (in one category/subcategory "attributes" list, or in "unassigned_attributes").
+4. Keep only examples that appear in the partial proposals; do not invent new ones.
+5. Do not add counts or frequencies - the software computes them.
+6. Record which original names you merged in "merged_from".
+
+Return ONLY valid JSON in the same format as the partial proposals, with "part": "reconciled",
+and add "merged_from": ["Old Name A", "Old Name B"] to each category and subcategory that combines
+earlier names.
+
+PARTIAL PROPOSALS:
+{{PROPOSALS}}

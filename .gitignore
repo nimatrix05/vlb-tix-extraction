@@ -1,0 +1,40 @@
+# secrets & sessions - never commit
+.env
+.env.*
+.auth/
+*.state.json
+config.local.json
+config.json
+
+# data (downloaded / licensed images, DB, ChatGPT outputs)
+data/*
+!data/.gitkeep
+batches/*
+!batches/.gitkeep
+chatgpt_results/*
+!chatgpt_results/.gitkeep
+outputs/*
+!outputs/.gitkeep
+logs/
+input/demo_images/
+
+# business spreadsheets (internal order/forecast data) - never commit
+*.xlsx
+*.xlsm
+~$*
+
+# python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# local helpers / temp files
+*.lnk
+*.tmp.xlsx
+*.tmp
+.DS_Store
+Thumbs.db

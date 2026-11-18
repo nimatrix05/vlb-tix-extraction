@@ -1,0 +1,6 @@
+isbn13,title,publisher,source_ref
+9783999900001,SYNTHETIC – Der stille Fluss,Fiktiv Verlag,
+978-3-9999-0001-8,SYNTHETIC – Nachtzug nach Nirgendwo,Fiktiv Verlag,
+9783999900025,SYNTHETIC – Kochen mit Licht,Beispiel & Söhne,
+9783999900001,SYNTHETIC – duplicate row (will be skipped),Fiktiv Verlag,
+9783999900000,SYNTHETIC – invalid check digit (will be rejected),Fiktiv Verlag,
